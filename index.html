@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="mr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>सोनाली &amp; उमेश – विवाह निमंत्रण</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Montserrat:wght@400;500&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#6e1f2f;--gold:#c9a45c;--gold2:#e8d19a;--ivory:#fff8ee;--blush:#f7dcd9}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:var(--blush);color:var(--wine);font-family:'Tiro Devanagari Marathi','Montserrat',serif}
+h1,h2,.n{font-family:'Playfair Display','Tiro Devanagari Marathi',serif;font-weight:500}
+#cover{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,#fff4f1,var(--blush) 70%);transition:opacity 1s .9s,visibility 0s 1.9s;perspective:1200px}
+#cover.go{opacity:0;visibility:hidden}
+.book{width:62vw;max-width:290px;aspect-ratio:3/4.2;position:relative;transform-style:preserve-3d;cursor:pointer;animation:fl 3s ease-in-out infinite}
+.cv{position:absolute;inset:0;background:linear-gradient(135deg,#8a2a3d,var(--wine) 60%,#4d1220);border-radius:4px 14px 14px 4px;border:3px solid var(--gold);box-shadow:0 22px 40px #6e1f2f66,inset 0 0 0 8px #6e1f2f,inset 0 0 0 10px var(--gold);transform-origin:left;transition:transform 1.2s cubic-bezier(.6,0,.3,1);display:grid;place-items:center;text-align:center;color:var(--gold2);backface-visibility:hidden}
+.pg{position:absolute;inset:4px 4px 4px 0;background:var(--ivory);border-radius:2px 10px 10px 2px}
+.go .cv{transform:rotateY(-160deg)}.go .book{animation:none;transform:translateX(30%) scale(1.1);transition:transform 1.2s}
+.cv b{font-size:64px;display:block;line-height:1}.cv small{display:block;margin-top:10px;font-size:15px}
+.hint{position:absolute;bottom:12vh;font-size:16px;letter-spacing:.04em;animation:pu 1.6s infinite}
+@keyframes fl{50%{transform:translateY(-8px) rotateY(-6deg)}}@keyframes pu{50%{opacity:.4}}
+#p{position:fixed;inset:0;pointer-events:none;z-index:40;overflow:hidden}
+#p i{position:absolute;top:-30px;width:12px;height:16px;background:#e58ca0;border-radius:80% 0 80% 0;opacity:.8;animation:fall linear infinite}
+@keyframes fall{to{transform:translate(40px,110vh) rotate(540deg)}}
+main{height:100%;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+section{min-height:100%;scroll-snap-align:start;padding:max(28px,env(safe-area-inset-top)) 22px 28px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden}
+.gan{font-size:44px;color:var(--gold);filter:drop-shadow(0 2px 3px #0003)}
+.fr{border:1.5px solid var(--gold);outline:1px solid var(--gold);outline-offset:5px;border-radius:6px;padding:22px 16px;background:#fff8eecc;width:100%;max-width:420px;margin:6px 0}
+.s1{background:#000}.s1 .bg{position:absolute;inset:-10%;background:url(photos/1.jpg) center/cover;filter:blur(3px) brightness(.45);animation:zm 22s ease-in-out infinite alternate}
+@keyframes zm{to{transform:scale(1.15)}}
+.s1>*{position:relative}.s1 .fr{background:#fff8eeee}
+.n{font-size:40px;line-height:1.15}.amp{font-size:34px;color:var(--gold);margin:2px 0}
+.sm{font-size:15px;line-height:1.7}.lb{font-size:14px;opacity:.8;margin-top:8px}
+.typ{border-right:2px solid var(--gold);white-space:nowrap;overflow:hidden;display:inline-block;max-width:100%;animation:tp 2.2s steps(14) both,bl .8s step-end 3}
+@keyframes tp{from{width:0}}@keyframes bl{50%{border-color:transparent}}
+.s3{background:linear-gradient(var(--ivory),var(--blush))}
+.rod{width:92%;max-width:400px;height:16px;border-radius:8px;background:linear-gradient(var(--gold2),var(--gold),#8c6a2c);box-shadow:0 3px 6px #0003;z-index:2}
+.sc{width:84%;max-width:360px;overflow:hidden;max-height:0;transition:max-height 1.4s ease;background:linear-gradient(90deg,#f2e2b8,#fff6dc,#f2e2b8);border:2px solid var(--gold);border-top:0}
+.sc.open{max-height:560px}.sc>div{padding:22px 14px}
+.tas{display:flex;flex-direction:column;align-items:center;margin-top:-2px;cursor:grab;touch-action:none;transition:transform .4s}
+.tas .cd{width:3px;height:56px;background:var(--gold)}.tas .tb{width:22px;height:46px;background:linear-gradient(var(--wine),#a03348);border-radius:10px 10px 4px 4px;border-bottom:6px double var(--gold)}
+.fg{font-size:30px;animation:tug 1.2s infinite}.open~.tas,.tas.d{transform:translateY(0)}.tas.d .fg{display:none}
+@keyframes tug{50%{transform:translateY(14px)}}
+.cdn{display:flex;gap:8px;justify-content:center;margin:12px 0}.cdn div{background:var(--wine);color:var(--gold2);border-radius:8px;padding:8px 0;width:62px}.cdn b{display:block;font:500 24px 'Playfair Display'}.cdn span{font-size:12px}
+.bt{display:inline-block;margin-top:10px;padding:12px 22px;border-radius:30px;border:1.5px solid var(--gold);background:var(--wine);color:var(--gold2);font:500 15px 'Tiro Devanagari Marathi',serif;text-decoration:none;cursor:pointer}
+.bt.l{background:none;color:var(--wine)}
+.car{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;width:100vw;padding:20px 12vw;perspective:900px;scrollbar-width:none}.car::-webkit-scrollbar{display:none}
+.cd2{flex:0 0 76vw;max-width:310px;scroll-snap-align:center;background:var(--ivory);border:2px solid var(--gold);border-radius:14px;padding:22px 16px;box-shadow:0 14px 30px #6e1f2f33;transition:transform .4s}
+.ill{font-size:54px;height:80px;display:grid;place-items:center;border-radius:50%;width:80px;margin:0 auto 8px}
+.cd2 h2{font-size:26px;margin-bottom:6px}.cd2 p{font-size:15px;line-height:1.6;margin-top:6px}
+.ga{width:100%;max-width:340px;position:relative}
+.gs{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border:2px solid var(--gold);border-radius:12px;scrollbar-width:none;aspect-ratio:3/4.4;background:#000}.gs::-webkit-scrollbar{display:none}
+.gs figure{flex:0 0 100%;scroll-snap-align:center;position:relative}.gs img{width:100%;height:100%;object-fit:cover;display:block}
+.gs figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 12px 14px;color:#fff;font-size:16px;background:linear-gradient(transparent,#000b)}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:12px}.dots i{width:9px;height:9px;border-radius:50%;background:#6e1f2f44;transition:.3s}.dots i.on{background:var(--wine);transform:scale(1.3)}
+.map{height:160px;border-radius:10px;border:1.5px solid var(--gold);margin:12px 0;display:block;overflow:hidden;position:relative}
+.s7{background:linear-gradient(160deg,var(--wine),#4a1220);color:var(--gold2)}.s7 .fr{background:none;border-color:var(--gold)}
+.s7 h1{font-size:30px;line-height:1.5}
+.fm{font-size:17px;line-height:1.9;margin-top:10px}
+.toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%);background:var(--wine);color:var(--gold2);padding:10px 18px;border-radius:20px;font-size:14px;opacity:0;transition:.3s;z-index:90}.toast.on{opacity:1}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></head><body>
+<div id="p"></div>
+<div id="cover"><div class="book" id="bk"><div class="pg"></div><div class="cv"><div><b>🕉</b><small>श्री गणेशाय नमः</small><div class="n" style="font-size:30px;margin-top:14px">सोनाली &amp; उमेश</div></div></div></div><div class="hint">पुस्तक उघडण्यासाठी टॅप करा</div></div>
+
+<main id="m">
+<section class="s1"><div class="bg"></div>
+ <div class="fr"><div class="gan">🕉</div><div class="sm">॥ श्री गणेशाय नमः ॥<br>आमच्या कुटुंबियांच्या सहकार्याने आपणांस सादर आमंत्रण देत आहोत</div>
+ <div class="lb">आमच्या लग्न सोहळ्याचे</div><h2 style="font-size:30px;margin:4px 0">विवाह निमंत्रण</h2>
+ <div class="n" id="n1">सोनाली</div><div class="amp">♥</div><div class="n" id="n2">उमेश</div>
+ <div class="sm" style="margin-top:8px">यांचा शुभ विवाह सोहळा<br>आपल्या उपस्थितीत संपन्न होत आहे,<br>हिच आमची अपेक्षा..!</div></div>
+ <div class="sm" style="color:#fff;margin-top:8px"><b>वधू पक्ष:</b> सौ. छाया शेलार • श्री. एकनाथ निवृत्ती शेलार<br><b>वर पक्ष:</b> स्व. सविता पाटील • स्व. अनंत पाटील</div></section>
+
+<section class="s3"><div class="gan">🕉</div><h2 style="font-size:30px;margin:4px 0 12px">शुभ तारीख</h2>
+ <div class="rod"></div><div class="sc" id="sc"><div>
+  <div class="sm">🌹 गुरुवार 🌹</div><div class="n" style="font-size:44px">१० डिसेंबर</div><div class="n" style="font-size:26px">२०२६</div>
+  <div class="sm" style="margin-top:8px">शुभ मुहूर्त: दुपारी १२:१९</div>
+  <div class="cdn"><div><b id="d">0</b><span>दिवस</span></div><div><b id="h">0</b><span>तास</span></div><div><b id="mi">0</b><span>मिनिटे</span></div><div><b id="s">0</b><span>सेकंद</span></div></div>
+  <a class="bt" id="cal">📅 कॅलेंडरमध्ये जोडा</a></div></div>
+ <div class="tas" id="tas"><div class="cd"></div><div class="tb"></div><div class="fg">👆</div><div class="sm" id="th">ओढा किंवा टॅप करा</div></div></section>
+
+<section><h2 style="font-size:30px">विवाह कार्यक्रम</h2><div class="lb">डावीकडे सरकवा</div>
+ <div class="car">
+  <div class="cd2"><div class="ill" style="background:#ffe27a">🌼</div><h2>हळदी समारंभ</h2><p>बुधवार, ९ डिसेंबर २०२६<br>सायंकाळी ६:००<br>सिद्धांत रेसिडेन्सी, आयपीसी भवनजवळ, रूम नं. ००१, उसर्ली खुर्द, नवीन पनवेल</p></div>
+  <div class="cd2"><div class="ill" style="background:#f7c9c9">🔥</div><h2>शुभ विवाह</h2><p>गुरुवार, १० डिसेंबर २०२६<br>दुपारी १२:१९<br>दीपसिटी, सर्वे नं. १५०/१ (१, २, ३), नीलकंठ विश्वाव्या शेजारी, उसर्ली खुर्द, नवीन पनवेल, जि. रायगड</p></div>
+ </div></section>
+
+<section><h2 style="font-size:30px;margin-bottom:12px">आमची गोष्ट</h2>
+ <div class="ga"><div class="gs" id="gs">
+  <figure><img src="photos/1.jpg" alt=""><figcaption>नजरेतच सगळं काही सांगून गेलं ♥</figcaption></figure>
+  <figure><img src="photos/2.jpg" alt=""><figcaption>तुझ्यासोबत प्रत्येक क्षण खास</figcaption></figure>
+  <figure><img src="photos/3.jpg" alt=""><figcaption>हसू तुझं, आनंद माझा</figcaption></figure>
+  <figure><img src="photos/4.jpg" alt=""><figcaption>आता सुरू होतोय आपला सुंदर प्रवास</figcaption></figure></div>
+ <div class="dots" id="dots"><i class="on"></i><i></i><i></i><i></i></div></div></section>
+
+<section><div class="fr"><div class="gan">📍</div><h2 style="font-size:28px">विवाह स्थळ</h2>
+ <div class="n" style="font-size:26px;margin:6px 0">दीपसिटी</div>
+ <div class="sm">सर्वे नं. १५०/१ (१, २, ३), नीलकंठ विश्वाव्या शेजारी, उसर्ली खुर्द, नवीन पनवेल, जि. रायगड</div>
+ <a class="map" id="mp" target="_blank" rel="noopener"><svg viewBox="0 0 300 160" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"><rect width="300" height="160" fill="#efe6d2"/><path d="M0 110 Q90 70 170 100 T300 60" stroke="#fff" stroke-width="14" fill="none"/><path d="M120 0 L150 160" stroke="#fff" stroke-width="9"/><path d="M0 40 L300 30" stroke="#f7e3b0" stroke-width="6"/><rect x="190" y="105" width="70" height="40" rx="6" fill="#cfe3c0"/><path d="M150 40a16 16 0 0 1 16 16c0 14-16 32-16 32s-16-18-16-32a16 16 0 0 1 16-16z" fill="#6e1f2f"/><circle cx="150" cy="56" r="6" fill="#e8d19a"/></svg></a>
+ <a class="bt" id="dir" target="_blank" rel="noopener">🧭 मार्ग पहा</a> <a class="bt l" id="cp">📋 पत्ता कॉपी करा</a></div></section>
+
+<section class="s7"><div class="gan">🕉</div><h1>आपल्या उपस्थितीची आतुरतेने वाट पाहत आहोत!</h1>
+ <div class="fm">🌸<br>सोनाली &amp; उमेश<br>शेलार • पाटील • जाधव • सोनावणे<br>भवार • गायकवाड • गोतरणे • रणखांबे<br>या सर्व परिवारांना अग्रहाचे निमंत्रण</div></section>
+</main>
+<div class="toast" id="t"></div>
+<script>
+const $=id=>document.getElementById(id),A="दीपसिटी, सर्वे नं. १५०/१ (१, २, ३), नीलकंठ विश्वाव्या शेजारी, उसर्ली खुर्द, नवीन पनवेल, जि. रायगड";
+const Q=encodeURIComponent("Deepcity, Ulwe Khurd, Navi Panvel, Raigad");
+$("mp").href="https://www.google.com/maps/search/?api=1&query="+Q;$("dir").href="https://www.google.com/maps/dir/?api=1&destination="+Q;
+function toast(x){const t=$("t");t.textContent=x;t.className="toast on";setTimeout(()=>t.className="toast",1800)}
+$("cp").onclick=()=>{(navigator.clipboard?navigator.clipboard.writeText(A):Promise.reject()).catch(()=>{const a=document.createElement("textarea");a.value=A;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove()}).finally(()=>toast("पत्ता कॉपी केला"))};
+const p=$("p");for(let i=0;i<14;i++){const e=document.createElement("i");e.style.cssText=`left:${Math.random()*100}%;animation-duration:${7+Math.random()*7}s;animation-delay:${-Math.random()*10}s;background:${i%3?'#e58ca0':'#e8d19a'}`;p.appendChild(e)}
+$("bk").onclick=()=>{$("cover").classList.add("go");document.querySelectorAll(".typ").forEach(x=>x.classList.remove("typ"));["n1","n2"].forEach((k,j)=>setTimeout(()=>$(k).classList.add("typ"),1300+j*2300))};
+const T=new Date("2026-12-10T12:19:00+05:30");
+function tick(){let r=Math.max(0,T-Date.now())/1000|0;$("d").textContent=r/86400|0;$("h").textContent=r%86400/3600|0;$("mi").textContent=r%3600/60|0;$("s").textContent=r%60}tick();setInterval(tick,1000);
+let o=0;const tas=$("tas");function pull(){if(o)return;o=1;$("sc").classList.add("open");tas.classList.add("d");$("th").textContent="";toast("🎉 शुभ विवाह!");for(let i=0;i<24;i++){const e=document.createElement("i");e.style.cssText=`left:${Math.random()*100}%;width:8px;height:8px;border-radius:2px;animation-duration:${3+Math.random()*3}s;background:hsl(${Math.random()*360},70%,65%)`;p.appendChild(e);setTimeout(()=>e.remove(),6500)}}
+tas.onclick=pull;let y0=null;tas.onpointerdown=e=>{y0=e.clientY};tas.onpointermove=e=>{if(y0!==null&&e.clientY-y0>25)pull()};tas.onpointerup=()=>y0=null;
+$("cal").onclick=()=>{const s=`BEGIN:VCALENDAR\r\nVERSION:2.0\r\nBEGIN:VEVENT\r\nUID:sonali-umesh-2026@wedding\r\nDTSTAMP:20261123T000000Z\r\nDTSTART:20261210T121900\r\nDTEND:20261210T161900\r\nSUMMARY:सोनाली & उमेश – शुभ विवाह\r\nLOCATION:Deepcity\\, Ulwe Khurd\\, Navi Panvel\\, Raigad\r\nEND:VEVENT\r\nEND:VCALENDAR`;const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([s],{type:"text/calendar"}));a.download="wedding.ics";a.click()};
+const gs=$("gs"),ds=[...$("dots").children];gs.onscroll=()=>{const i=Math.round(gs.scrollLeft/gs.clientWidth);ds.forEach((d,k)=>d.classList.toggle("on",k==i))};
+</script></body></html>
